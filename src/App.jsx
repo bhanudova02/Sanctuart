@@ -3,6 +3,7 @@ import Lenis from "lenis";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import ProjectHighlights from "./components/ProjectHighlights/ProjectHighlights";
+import PremiumFeatures from "./components/PremiumFeatures/PremiumFeatures";
 import Lifestyle from "./components/Lifestyle/Lifestyle";
 import WhySanctuary from "./components/WhySanctuary/WhySanctuary";
 import LocationAdvantage from "./components/LocationAdvantage/LocationAdvantage";
@@ -47,6 +48,7 @@ function App() {
       <Header />
       <Hero />
       <ProjectHighlights />
+      <PremiumFeatures />
       <Lifestyle />
       <WhySanctuary />
       <LocationAdvantage />
