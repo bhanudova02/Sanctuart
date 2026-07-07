@@ -48,11 +48,10 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-700 ${
         isScrolled
-          ? "bg-white shadow-md"
-          : "bg-transparent"
+          ? "bg-white shadow-md py-2 md:py-[14px]"
+          : "bg-transparent py-3 md:py-[22px]"
       }`}
       style={{
-        padding: isScrolled ? "14px 0" : "22px 0",
         borderBottom: isScrolled ? "1px solid rgba(0,0,0,0.04)" : "none",
       }}
     >

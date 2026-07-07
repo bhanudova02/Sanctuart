@@ -55,47 +55,37 @@ const TopWaveDivider = ({ className }) => (
 
 const BottomWaveDivider = ({ className }) => (
   <div className={`absolute left-0 w-full h-[55px] overflow-hidden ${className || ''}`} aria-hidden="true">
-    {/* Layer 1: Backmost, sand/gold tone */}
-    <svg
-      className="absolute top-0 w-[200%] h-full animate-wave-drift-left"
-      style={{ animationDuration: '24s' }}
-      preserveAspectRatio="none"
-      viewBox="0 0 2880 55"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M0,19 C80,36 160,11 240,25 C320,38 400,14 480,27 C560,38 640,14 720,25 C800,36 880,11 960,22 C1040,36 1120,14 1200,27 C1280,38 1360,16 1440,19 C1520,36 1600,11 1680,25 C1760,38 1840,14 1920,27 C2000,38 2080,14 2160,25 C2240,36 2320,11 2400,22 C2480,36 2560,14 2640,27 C2720,38 2800,16 2880,19 L2880,0 L0,0 Z"
-        fill="#C19B76"
-        opacity="0.2"
-      />
-    </svg>
-    {/* Layer 2: Middle, cream */}
-    <svg
-      className="absolute top-0 w-[200%] h-full animate-wave-drift-left"
-      style={{ animationDuration: '32s' }}
-      preserveAspectRatio="none"
-      viewBox="0 0 2880 55"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M0,14 C90,30 170,8 260,19 C350,33 430,11 520,22 C610,33 690,11 780,19 C870,30 950,8 1040,19 C1130,30 1210,11 1300,22 C1380,30 1420,14 1440,14 C1530,30 1610,8 1700,19 C1790,33 1870,11 1960,22 C2050,33 2130,11 2220,19 C2310,30 2390,8 2480,19 C2570,30 2650,11 2740,22 C2820,30 2860,14 2880,14 L2880,0 L0,0 Z"
-        fill="#FBF6EC"
-        opacity="0.5"
-      />
-    </svg>
-    {/* Layer 3: Front, solid cream */}
-    <svg
-      className="absolute top-0 w-[200%] h-full animate-wave-drift-right"
-      style={{ animationDuration: '45s' }}
-      preserveAspectRatio="none"
-      viewBox="0 0 2880 55"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M0,11 C100,25 190,5 290,16 C390,27 480,8 580,16 C680,25 770,5 870,14 C970,25 1060,8 1160,16 C1260,25 1350,8 1440,11 C1540,25 1630,5 1730,16 C1830,27 1920,8 2020,16 C2120,25 2210,5 2310,14 C2410,25 2500,8 2600,16 C2700,25 2790,8 2880,11 L2880,0 L0,0 Z"
-        fill="#FBF6EC"
-      />
-    </svg>
+    {/* Desktop Version (8-9 ripples) */}
+    <div className="hidden md:block w-full h-full">
+      {/* Layer 1: Backmost */}
+      <svg className="absolute top-0 w-[200%] h-full animate-wave-drift-left" style={{ animationDuration: '24s' }} preserveAspectRatio="none" viewBox="0 0 2880 55" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,19 C80,36 160,11 240,25 C320,38 400,14 480,27 C560,38 640,14 720,25 C800,36 880,11 960,22 C1040,36 1120,14 1200,27 C1280,38 1360,16 1440,19 C1520,36 1600,11 1680,25 C1760,38 1840,14 1920,27 C2000,38 2080,14 2160,25 C2240,36 2320,11 2400,22 C2480,36 2560,14 2640,27 C2720,38 2800,16 2880,19 L2880,0 L0,0 Z" fill="#C19B76" opacity="0.2"/>
+      </svg>
+      {/* Layer 2: Middle */}
+      <svg className="absolute top-0 w-[200%] h-full animate-wave-drift-left" style={{ animationDuration: '32s' }} preserveAspectRatio="none" viewBox="0 0 2880 55" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,14 C90,30 170,8 260,19 C350,33 430,11 520,22 C610,33 690,11 780,19 C870,30 950,8 1040,19 C1130,30 1210,11 1300,22 C1380,30 1420,14 1440,14 C1530,30 1610,8 1700,19 C1790,33 1870,11 1960,22 C2050,33 2130,11 2220,19 C2310,30 2390,8 2480,19 C2570,30 2650,11 2740,22 C2820,30 2860,14 2880,14 L2880,0 L0,0 Z" fill="#FBF6EC" opacity="0.5"/>
+      </svg>
+      {/* Layer 3: Front */}
+      <svg className="absolute top-0 w-[200%] h-full animate-wave-drift-right" style={{ animationDuration: '45s' }} preserveAspectRatio="none" viewBox="0 0 2880 55" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,11 C100,25 190,5 290,16 C390,27 480,8 580,16 C680,25 770,5 870,14 C970,25 1060,8 1160,16 C1260,25 1350,8 1440,11 C1540,25 1630,5 1730,16 C1830,27 1920,8 2020,16 C2120,25 2210,5 2310,14 C2410,25 2500,8 2600,16 C2700,25 2790,8 2880,11 L2880,0 L0,0 Z" fill="#FBF6EC"/>
+      </svg>
+    </div>
+
+    {/* Mobile Version (4 broader ripples) */}
+    <div className="md:hidden w-full h-full">
+      {/* Layer 1: Backmost */}
+      <svg className="absolute top-0 w-[200%] h-full animate-wave-drift-left" style={{ animationDuration: '24s' }} preserveAspectRatio="none" viewBox="0 0 2880 55" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,19 C120,36 240,11 360,25 C480,38 600,14 720,27 C840,38 960,14 1080,25 C1200,36 1320,11 1440,19 C1560,36 1680,11 1800,25 C1920,38 2040,14 2160,27 C2280,38 2400,14 2520,25 C2640,36 2760,11 2880,19 L2880,0 L0,0 Z" fill="#C19B76" opacity="0.2"/>
+      </svg>
+      {/* Layer 2: Middle */}
+      <svg className="absolute top-0 w-[200%] h-full animate-wave-drift-left" style={{ animationDuration: '32s' }} preserveAspectRatio="none" viewBox="0 0 2880 55" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,14 C130,30 250,8 360,19 C480,33 600,11 720,22 C840,33 960,11 1080,19 C1200,30 1320,8 1440,14 C1570,30 1690,8 1800,19 C1920,33 2040,11 2160,22 C2280,33 2400,11 2520,19 C2640,30 2760,8 2880,14 L2880,0 L0,0 Z" fill="#FBF6EC" opacity="0.5"/>
+      </svg>
+      {/* Layer 3: Front */}
+      <svg className="absolute top-0 w-[200%] h-full animate-wave-drift-right" style={{ animationDuration: '45s' }} preserveAspectRatio="none" viewBox="0 0 2880 55" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,11 C140,25 260,5 360,16 C480,27 600,8 720,16 C840,25 960,5 1080,14 C1200,25 1320,8 1440,11 C1580,25 1700,5 1800,16 C1920,27 2040,8 2160,16 C2280,25 2400,5 2520,14 C2640,25 2760,8 2880,11 L2880,0 L0,0 Z" fill="#FBF6EC"/>
+      </svg>
+    </div>
   </div>
 );
 
@@ -105,7 +95,7 @@ const ProjectHighlights = () => {
       <TopWaveDivider className="bottom-full" />
 
       <div className="overflow-hidden">
-        <div className="py-7 project-highlights-marquee flex items-center whitespace-nowrap">
+        <div className="py-4 md:py-7 project-highlights-marquee flex items-center whitespace-nowrap">
           {[0, 1].map((group) => (
             <div
               key={group}
