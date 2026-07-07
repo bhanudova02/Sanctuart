@@ -1,17 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --font-display: "Playfair Display", serif;
-  --font-body: "Inter", sans-serif;
-  --color-primary: #071A2E;
-  --color-secondary: #0F2E46;
-  --color-accent: #33B8C8;
-  --color-cta: #2EC5FF;
-  --color-hover: #5DDFFF;
-  --color-text-secondary: #C9D4DF;
-  --color-border: rgba(255,255,255,0.12);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -23,8 +11,13 @@ body {
 }
 
 .project-highlights-marquee {
+  display: flex;
   width: max-content;
-  animation: project-highlights-scroll 24s linear infinite;
+  animation: project-highlights-scroll 45s linear infinite;
+}
+
+.project-highlights-marquee:hover {
+  animation-play-state: paused;
 }
 
 @keyframes project-highlights-scroll {
@@ -33,6 +26,35 @@ body {
   }
 
   to {
-    transform: translateX(-25%);
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-wave-drift-left {
+    animation: wave-drift-left linear infinite;
+    will-change: transform;
+  }
+  .animate-wave-drift-right {
+    animation: wave-drift-right linear infinite;
+    will-change: transform;
+  }
+}
+
+@keyframes wave-drift-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes wave-drift-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }

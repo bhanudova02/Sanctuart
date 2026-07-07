@@ -57,8 +57,8 @@ const Header = () => {
       }}
     >
       <nav
-        className="flex items-center justify-between"
-        style={{ maxWidth: "1400px", margin: "0 auto", padding: "0 60px" }}
+        className="flex items-center justify-between px-5 md:px-8 lg:px-[60px]"
+        style={{ maxWidth: "1400px", margin: "0 auto" }}
       >
         {/* Logo */}
         <a
