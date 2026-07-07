@@ -60,7 +60,7 @@ const PremiumFeatures = () => {
           >
 
             {/* Card 1: Land Area */}
-            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/40 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
+            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/70 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
               <div className="rounded-lg border border-[#d4af37]/30 p-2 sm:p-5 flex flex-col justify-center h-full">
                 <div className="flex items-center justify-center md:justify-start gap-2 sm:gap-4 w-full mb-2 sm:mb-3">
                   <div className="text-lg sm:text-2xl text-[#e6ca84] border-2 border-[#d4af37]/40 rounded-full p-2 sm:p-3 lg:group-hover:bg-[#d4af37]/20 lg:group-hover:border-[#e6ca84] transition-all duration-500 flex-shrink-0">
@@ -79,7 +79,7 @@ const PremiumFeatures = () => {
             </motion.div>
 
             {/* Card 2: Plots */}
-            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/40 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
+            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/70 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
               <div className="rounded-lg border border-[#d4af37]/30 p-2 sm:p-5 flex flex-col justify-center h-full">
                 <div className="flex items-center justify-center md:justify-start gap-2 sm:gap-4 w-full mb-2 sm:mb-3">
                   <div className="text-lg sm:text-2xl text-[#e6ca84] border-2 border-[#d4af37]/40 rounded-full p-2 sm:p-3 lg:group-hover:bg-[#d4af37]/20 lg:group-hover:border-[#e6ca84] transition-all duration-500 flex-shrink-0">
@@ -98,7 +98,7 @@ const PremiumFeatures = () => {
             </motion.div>
 
             {/* Card 3: Beach */}
-            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/40 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
+            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/70 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
               <div className="rounded-lg border border-[#d4af37]/30 p-2 sm:p-5 flex flex-col justify-center h-full">
                 <div className="flex items-center justify-center md:justify-start gap-2 sm:gap-4 w-full mb-2 sm:mb-3">
                   <div className="text-lg sm:text-2xl text-[#e6ca84] border-2 border-[#d4af37]/40 rounded-full p-2 sm:p-3 lg:group-hover:bg-[#d4af37]/20 lg:group-hover:border-[#e6ca84] transition-all duration-500 flex-shrink-0">
@@ -117,7 +117,7 @@ const PremiumFeatures = () => {
             </motion.div>
 
             {/* Card 4: Clubhouse */}
-            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/40 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
+            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/70 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
               <div className="rounded-lg border border-[#d4af37]/30 p-2 sm:p-5 flex flex-col justify-center h-full">
                 <div className="flex items-center justify-center md:justify-start gap-2 sm:gap-4 w-full mb-2 sm:mb-3">
                   <div className="text-lg sm:text-2xl text-[#e6ca84] border-2 border-[#d4af37]/40 rounded-full p-2 sm:p-3 lg:group-hover:bg-[#d4af37]/20 lg:group-hover:border-[#e6ca84] transition-all duration-500 flex-shrink-0">
@@ -136,7 +136,7 @@ const PremiumFeatures = () => {
             </motion.div>
 
             {/* Card 5: Amenities */}
-            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/40 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
+            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/70 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
               <div className="rounded-lg border border-[#d4af37]/30 p-2 sm:p-5 flex flex-col justify-center h-full">
                 <div className="flex flex-col md:flex-row justify-center md:justify-between items-center w-full mb-2 sm:mb-3 gap-2 sm:gap-3 md:gap-0">
                   <div className="flex flex-col text-center md:text-left">
@@ -173,7 +173,7 @@ const PremiumFeatures = () => {
             </motion.div>
 
             {/* Card 6: Gated Community */}
-            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/40 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
+            <motion.div variants={cardVariants} className="group rounded-xl bg-[#0a1128]/70 backdrop-blur-md border border-[#d4af37]/60 p-[2px] sm:p-[3px] shadow-[0_0_15px_rgba(212,175,55,0.15)] lg:hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all duration-500 cursor-pointer flex flex-col">
               <div className="rounded-lg border border-[#d4af37]/30 p-2 sm:p-5 flex flex-col justify-center h-full">
                 <div className="flex items-center justify-center md:justify-start gap-2 sm:gap-4 w-full mb-2 sm:mb-3">
                   <div className="text-lg sm:text-2xl text-[#e6ca84] border-2 border-[#d4af37]/40 rounded-full p-2 sm:p-3 lg:group-hover:bg-[#d4af37]/20 lg:group-hover:border-[#e6ca84] transition-all duration-500 flex-shrink-0">
