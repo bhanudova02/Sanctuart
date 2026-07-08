@@ -4,7 +4,7 @@ import { FaUmbrellaBeach } from 'react-icons/fa6';
 
 const Lifestyle = () => {
   return (
-    <section className="relative w-full bg-[#eee5d6] pt-16 lg:pt-24 overflow-hidden" id="lifestyle">
+    <section className="relative w-full bg-[#eee5d6] pt-12 lg:pt-10 overflow-hidden" id="lifestyle">
       {/* Main Background Image */}
       <img src="/lifestyle/image1.png" alt="Background" className="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none" />
 
@@ -22,16 +22,16 @@ const Lifestyle = () => {
       <img src="/lifestyle/image7.png" alt="Starfish" className="absolute bottom-6 lg:bottom-10 right-8 lg:right-24 w-16 lg:w-20 object-contain z-10 pointer-events-none drop-shadow-lg" />
 
       {/* Main Container */}
-      <div className="flex flex-col lg:flex-row items-center w-full relative z-10 max-w-[1600px] mx-auto pb-24 lg:pb-32">
+      <div className="flex flex-col lg:flex-row items-center lg:items-stretch w-full relative z-10 max-w-[1600px] mx-auto pb-16 lg:pb-12">
         
         {/* Left Column - Full Bleed Image */}
-        <div className="w-full lg:w-[50%] relative h-[500px] sm:h-[600px] lg:h-[750px] mb-12 lg:mb-0">
+        <div className="w-full lg:w-[50%] relative flex flex-col h-[480px] sm:h-[540px] lg:h-auto mb-12 lg:mb-0">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="absolute top-0 left-0 w-full lg:w-[95%] h-full rounded-tr-[80px] rounded-br-[80px] lg:rounded-tr-[120px] lg:rounded-br-[120px] overflow-hidden"
+            className="w-full lg:w-[95%] flex-1 rounded-tr-[80px] rounded-br-[80px] lg:rounded-tr-[120px] lg:rounded-br-[120px] overflow-hidden"
           >
             <img 
               src="/lifestyle/lifestyle-family.png" 
@@ -68,7 +68,7 @@ const Lifestyle = () => {
         </div>
 
         {/* Right Column - Content */}
-        <div className="w-full lg:w-[50%] px-4 sm:px-8 lg:px-12 xl:pr-20 xl:pl-8 flex flex-col mt-8 lg:mt-0">
+        <div className="w-full lg:w-[50%] px-4 sm:px-8 lg:px-12 xl:pr-20 xl:pl-8 flex flex-col justify-center mt-8 lg:mt-0">
           
           {/* Badge & Dashed Line */}
           <motion.div 
@@ -89,10 +89,10 @@ const Lifestyle = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-[2.75rem] sm:text-5xl lg:text-[4rem] xl:text-[4.5rem] text-[#3d3126] mb-4 leading-[1.1] font-serif"
+            className="text-[2.75rem] sm:text-5xl lg:text-[3.25rem] xl:text-[3.75rem] text-[#3d3126] mb-4 leading-[1.1] font-serif"
           >
             Live Where Every <br className="hidden sm:block"/> Day Feels Like <br/>
-            <span className="text-[#a87c4f] italic font-serif text-[3.25rem] sm:text-[4.5rem] lg:text-[4.5rem] xl:text-[5rem] mt-1 block">A Vacation</span>
+            <span className="text-[#a87c4f] italic font-serif text-[3.25rem] sm:text-[4.5rem] lg:text-[3.75rem] xl:text-[4.25rem] mt-1 block">A Vacation</span>
           </motion.h2>
 
           {/* Divider Line */}
@@ -110,7 +110,7 @@ const Lifestyle = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-[#5c4f42] text-[14px] sm:text-[15px] lg:text-[16px] mb-8 sm:mb-12 leading-relaxed font-medium max-w-lg space-y-5"
+            className="text-[#5c4f42] text-[14px] sm:text-[15px] lg:text-[15px] mb-8 sm:mb-12 leading-relaxed font-medium max-w-lg space-y-5"
           >
             <p>Wake up to the sound of waves, breathe in the ocean air, and spend your days surrounded by natural beauty, comfort, and the people who matter most.</p>
             <p>At Sanctuary by the Beach, life slows down so you can truly live.</p>
@@ -156,7 +156,7 @@ const Lifestyle = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
-            className="w-full max-w-[500px] bg-gradient-to-r from-white/95 to-white/70 backdrop-blur-xl p-3 sm:p-5 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-white flex flex-row gap-3 sm:gap-5 items-center justify-between"
+            className="w-full max-w-[500px] bg-gradient-to-r from-white/95 to-white/70 backdrop-blur-xl p-3 sm:p-5 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-white flex flex-row gap-3 sm:gap-5 items-center justify-between lg:-ml-6 xl:-ml-10"
           >
             <div className="flex items-center gap-2 sm:gap-4 flex-1 w-full pl-1 sm:pl-2">
               <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-[#b3895d] flex items-center justify-center text-[#b3895d] shadow-sm shrink-0">
