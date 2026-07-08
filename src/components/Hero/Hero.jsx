@@ -142,8 +142,7 @@ const Hero = () => {
             {/* Secondary CTA */}
             <a
               href="/brochure/Sanctuary-Brochure.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Sanctuary-Brochure.pdf"
               className="group inline-flex items-center justify-center transition-all duration-500 w-full sm:w-auto hover:bg-white/10"
               style={{
                 gap: "14px",
