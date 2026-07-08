@@ -19,13 +19,13 @@ const Lifestyle = () => {
       </div>
       
       {/* Starfish at bottom right */}
-      <img src="/lifestyle/image7.png" alt="Starfish" className="absolute bottom-6 lg:bottom-10 right-8 lg:right-24 w-16 lg:w-20 object-contain z-10 pointer-events-none drop-shadow-lg" />
+      <img src="/lifestyle/image31.png" alt="Starfish" className="absolute bottom-6 lg:bottom-10 right-4 lg:right-8 xl:right-12 w-16 lg:w-20 object-contain z-10 pointer-events-none drop-shadow-lg" />
 
       {/* Main Container */}
-      <div className="flex flex-col lg:flex-row items-center lg:items-stretch w-full relative z-10 max-w-[1600px] mx-auto pb-16 lg:pb-12">
+      <div className="flex flex-col lg:flex-row items-center w-full relative z-10 max-w-[1600px] mx-auto pb-16 lg:pb-12">
         
-        {/* Left Column - Full Bleed Image */}
-        <div className="w-full lg:w-[50%] relative flex flex-col h-[480px] sm:h-[540px] lg:h-auto mb-12 lg:mb-0">
+        {/* Left Column - Image */}
+        <div className="w-full lg:w-[50%] relative flex flex-col h-[480px] sm:h-[540px] lg:h-[700px] mb-12 lg:mb-0">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
